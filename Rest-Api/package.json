@@ -1,0 +1,46 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/src/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/body-parser": "^1.19.6",
+    "@types/config": "^3.3.5",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/lodash": "^4.17.20",
+    "@types/mongoose": "^5.11.96",
+    "@types/nanoid": "^2.1.0",
+    "@types/node": "^24.3.3",
+    "@types/pino": "^7.0.4",
+    "@types/yup": "^0.29.14",
+    "bcrypt": "^6.0.0",
+    "concurrently": "^9.2.1",
+    "config": "^4.1.1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.18",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.18.1",
+    "nanoid": "^5.1.5",
+    "nodemon": "^3.1.10",
+    "pino": "^9.9.5",
+    "pino-pretty": "^13.1.1",
+    "yup": "^1.7.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
